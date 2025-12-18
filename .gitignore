@@ -1,0 +1,32 @@
+# --- Node / Web / JS ---
+node_modules/
+dist/
+build/
+.env
+.env.local
+.DS_Store
+
+# --- Rust / Tauri ---
+/target/
+**/*.rs.bk
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- C++ ---
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.iso
+
+# --- IDEs / Editores ---
+.vscode/
+.idea/
+*.swp
